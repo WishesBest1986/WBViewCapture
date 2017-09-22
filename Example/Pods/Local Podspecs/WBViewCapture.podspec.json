@@ -1,0 +1,22 @@
+{
+  "name": "WBViewCapture",
+  "version": "0.1.0",
+  "summary": "A short description of WBViewCapture.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/WishesBest1986/WBViewCapture",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "WishesBest1986": "jun2.li@timanetworks.com"
+  },
+  "source": {
+    "git": "https://github.com/WishesBest1986/WBViewCapture.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WBViewCapture/Classes/**/*"
+}

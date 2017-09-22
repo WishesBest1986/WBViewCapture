@@ -1,0 +1,6 @@
+framework module WBViewCapture {
+  umbrella header "WBViewCapture-umbrella.h"
+
+  export *
+  module * { export * }
+}

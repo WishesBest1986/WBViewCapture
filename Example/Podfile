@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WBViewCapture_Example' do
+  pod 'WBViewCapture', :path => '../'
+
+  target 'WBViewCapture_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,16 @@
+PODS:
+  - WBViewCapture (0.1.0)
+
+DEPENDENCIES:
+  - WBViewCapture (from `../`)
+
+EXTERNAL SOURCES:
+  WBViewCapture:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WBViewCapture: 1b8fc94928df42669552b4d2d4b7a489b3665ef5
+
+PODFILE CHECKSUM: b8ef0a06561ab749a257d300289cc91f9a7a7d36
+
+COCOAPODS: 1.3.1
