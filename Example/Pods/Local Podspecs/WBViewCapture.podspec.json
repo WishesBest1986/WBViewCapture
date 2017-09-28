@@ -9,7 +9,7 @@
     "file": "LICENSE"
   },
   "authors": {
-    "WishesBest1986": "jun2.li@timanetworks.com"
+    "WishesBest1986": "lijun_211@126.com"
   },
   "source": {
     "git": "https://github.com/WishesBest1986/WBViewCapture.git",
@@ -18,5 +18,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "WBViewCapture/Classes/**/*"
+  "source_files": "WBViewCapture/Classes/**/*",
+  "frameworks": "WebKit"
 }

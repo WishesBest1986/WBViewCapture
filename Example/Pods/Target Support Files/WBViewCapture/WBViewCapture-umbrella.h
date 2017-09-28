@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "UIView+Capture.h"
+#import "WBViewCapture.h"
 
 FOUNDATION_EXPORT double WBViewCaptureVersionNumber;
 FOUNDATION_EXPORT const unsigned char WBViewCaptureVersionString[];
