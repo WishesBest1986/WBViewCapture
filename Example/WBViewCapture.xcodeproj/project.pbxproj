@@ -26,6 +26,8 @@
 		F43371F31F74F0B80058B4F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43371F21F74F0B80058B4F6 /* LaunchScreen.storyboard */; };
 		F462B0BF1F7C90CF00CEEF42 /* WBImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F462B0BE1F7C90CF00CEEF42 /* WBImageViewController.m */; };
 		F462B0C21F7C956C00CEEF42 /* WBViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F462B0C11F7C956C00CEEF42 /* WBViewViewController.m */; };
+		F462B0D11F7CCE5800CEEF42 /* WBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F462B0D01F7CCE5800CEEF42 /* WBTableViewController.m */; };
+		F462B0D41F7CCE6300CEEF42 /* WBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F462B0D31F7CCE6300CEEF42 /* WBWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,10 @@
 		F462B0BE1F7C90CF00CEEF42 /* WBImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBImageViewController.m; sourceTree = "<group>"; };
 		F462B0C01F7C956C00CEEF42 /* WBViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBViewViewController.h; sourceTree = "<group>"; };
 		F462B0C11F7C956C00CEEF42 /* WBViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBViewViewController.m; sourceTree = "<group>"; };
+		F462B0CF1F7CCE5800CEEF42 /* WBTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBTableViewController.h; sourceTree = "<group>"; };
+		F462B0D01F7CCE5800CEEF42 /* WBTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBTableViewController.m; sourceTree = "<group>"; };
+		F462B0D21F7CCE6300CEEF42 /* WBWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBWebViewController.h; sourceTree = "<group>"; };
+		F462B0D31F7CCE6300CEEF42 /* WBWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +167,10 @@
 				F462B0BE1F7C90CF00CEEF42 /* WBImageViewController.m */,
 				F462B0C01F7C956C00CEEF42 /* WBViewViewController.h */,
 				F462B0C11F7C956C00CEEF42 /* WBViewViewController.m */,
+				F462B0CF1F7CCE5800CEEF42 /* WBTableViewController.h */,
+				F462B0D01F7CCE5800CEEF42 /* WBTableViewController.m */,
+				F462B0D21F7CCE6300CEEF42 /* WBWebViewController.h */,
+				F462B0D31F7CCE6300CEEF42 /* WBWebViewController.m */,
 			);
 			name = "Example for WBViewCapture";
 			path = WBViewCapture;
@@ -414,7 +424,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F462B0C21F7C956C00CEEF42 /* WBViewViewController.m in Sources */,
+				F462B0D41F7CCE6300CEEF42 /* WBWebViewController.m in Sources */,
 				6003F59E195388D20070C39A /* WBAppDelegate.m in Sources */,
+				F462B0D11F7CCE5800CEEF42 /* WBTableViewController.m in Sources */,
 				F462B0BF1F7C90CF00CEEF42 /* WBImageViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* WBViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

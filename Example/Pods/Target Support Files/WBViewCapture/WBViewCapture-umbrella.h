@@ -10,7 +10,9 @@
 #endif
 #endif
 
+#import "UIScrollView+Capture.h"
 #import "UIView+Capture.h"
+#import "UIWebView+Capture.h"
 #import "WBViewCapture.h"
 
 FOUNDATION_EXPORT double WBViewCaptureVersionNumber;

@@ -9,6 +9,9 @@
 
 @interface UIView (Capture)
 
+- (void)setFrameSwizzled:(CGRect)frame;
+- (BOOL)isContainWKWebView;
+
 - (void)capture:(void (^_Nullable)(UIImage * _Nullable caputuredImage))completion;
 
 @end

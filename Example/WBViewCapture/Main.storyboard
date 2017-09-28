@@ -79,10 +79,28 @@
                                     <segue destination="pbG-du-w54" kind="show" id="yco-68-8bP"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWQ-J7-Lmk">
+                                <rect key="frame" x="153" y="164" width="69" height="30"/>
+                                <state key="normal" title="TableView"/>
+                                <connections>
+                                    <segue destination="JsZ-2n-hoz" kind="show" id="mZB-B5-e7b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwf-cC-JOZ">
+                                <rect key="frame" x="148" y="224" width="78" height="30"/>
+                                <state key="normal" title="UIWebView"/>
+                                <connections>
+                                    <segue destination="L0i-Ro-TTU" kind="show" id="eAy-zg-U2h"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="iwf-cC-JOZ" firstAttribute="centerX" secondItem="VyY-Gw-WWc" secondAttribute="centerX" id="8Zg-wl-m01"/>
+                            <constraint firstItem="iwf-cC-JOZ" firstAttribute="top" secondItem="gWQ-J7-Lmk" secondAttribute="bottom" constant="30" id="PJs-la-l5l"/>
                             <constraint firstItem="NUY-Xe-KcW" firstAttribute="centerX" secondItem="VyY-Gw-WWc" secondAttribute="centerX" id="PZq-aj-6ff"/>
+                            <constraint firstItem="gWQ-J7-Lmk" firstAttribute="centerX" secondItem="VyY-Gw-WWc" secondAttribute="centerX" id="RcJ-iA-KDJ"/>
+                            <constraint firstItem="gWQ-J7-Lmk" firstAttribute="top" secondItem="NUY-Xe-KcW" secondAttribute="bottom" constant="30" id="pED-P1-5kd"/>
                             <constraint firstItem="NUY-Xe-KcW" firstAttribute="top" secondItem="nkr-GG-yke" secondAttribute="top" constant="40" id="yWg-eA-7uo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nkr-GG-yke"/>
@@ -91,7 +109,52 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZaG-dl-0QV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-889" y="110"/>
+            <point key="canvasLocation" x="-890.39999999999998" y="109.29535232383809"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="DtL-If-sj5">
+            <objects>
+                <viewController id="JsZ-2n-hoz" customClass="WBTableViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YJq-W3-7PN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="nav-f6-9NQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="69j-XF-Dmg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="15" y="315"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="lft-gK-4xA">
+            <objects>
+                <viewController id="L0i-Ro-TTU" customClass="WBWebViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GeT-fx-Toi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hf8-cZ-KXP">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nsF-tO-QSR" firstAttribute="bottom" secondItem="hf8-cZ-KXP" secondAttribute="bottom" id="NhM-0M-eZD"/>
+                            <constraint firstItem="hf8-cZ-KXP" firstAttribute="leading" secondItem="nsF-tO-QSR" secondAttribute="leading" id="PJy-Oc-iL3"/>
+                            <constraint firstItem="nsF-tO-QSR" firstAttribute="trailing" secondItem="hf8-cZ-KXP" secondAttribute="trailing" id="Zd4-LK-SP3"/>
+                            <constraint firstItem="hf8-cZ-KXP" firstAttribute="top" secondItem="nsF-tO-QSR" secondAttribute="top" id="zec-aa-vRi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nsF-tO-QSR"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="hf8-cZ-KXP" id="Xfb-P9-WFw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rsv-ka-H5w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="15" y="1015"/>
         </scene>
         <!--Image View Controller-->
         <scene sceneID="IEp-qD-qNt">

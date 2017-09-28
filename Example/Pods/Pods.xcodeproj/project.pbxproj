@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BF8D5C70DCB869EE584EB2191A4B48D /* UIScrollView+Capture.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE638729C4305AC4869CA295A26C2E8 /* UIScrollView+Capture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DA669A8D1BB1D49D171AFD2182F92F6 /* UIWebView+Capture.h in Headers */ = {isa = PBXBuildFile; fileRef = 12641147E9EC3A3B11EC5FD334F67701 /* UIWebView+Capture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29F5CAE40F1E4BB774B8CBDD4859C742 /* UIWebView+Capture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE23462E4FC62379A2D10853F3FED95 /* UIWebView+Capture.m */; };
+		318AFF7F142509AA9782BD073BF6B850 /* UIView+Capture.h in Headers */ = {isa = PBXBuildFile; fileRef = 404A029847666F7B15CE82BD8AD37D82 /* UIView+Capture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3ADE733CD8AE88535EBB1705086CECC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
-		3E30CFC89BC9036735C9F9175FF123BB /* WBViewCapture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1B7750AA4A00DA67569141B615168E /* WBViewCapture-dummy.m */; };
 		4C1E9D22E878D963331686281065160D /* Pods-WBViewCapture_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDA670106EE032B5FF68CE0D9792DC7 /* Pods-WBViewCapture_Example-dummy.m */; };
+		5ECE317A52DC4966ADBB8C847F2B8227 /* WBViewCapture-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7F7FA2FC4548191D92A651EBB7B0AA /* WBViewCapture-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6117C0E16D7E912291768BA46A3F3FC1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */; };
 		64A9C905A71A80275086F24D7897165B /* Pods-WBViewCapture_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C209E26970FDD6B657DA3F4B77D5EE /* Pods-WBViewCapture_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71804C5ACAE5A7C91B347E0EB7FD6353 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
 		7722042832718B47A847598CE0BB51C4 /* Pods-WBViewCapture_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D24E056657D9F83EF689BE149B91D4 /* Pods-WBViewCapture_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82621BD3EE7C8DB0F98EBDBA550596C4 /* UIView+Capture.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DCD18F220B89914EE7DFCF974764984 /* UIView+Capture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83A2F9EDC8AC71F3227198735562241F /* WBViewCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 621C5D30C0CEC5C3EAC6B1818C6DF8B9 /* WBViewCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98D37442A2A86F53A3CEC22933EABBBC /* Pods-WBViewCapture_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E52B16E5AF327BDC51923FEA0AF7695B /* Pods-WBViewCapture_Tests-dummy.m */; };
+		9EC054C5451A95EE42EC2674DA0857BB /* WBViewCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 0549D0395F487AC0120D2B6F2F6E87DB /* WBViewCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A92793E1E25C5A33046076F7AFD045B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
-		CDEE9A1D38A5CA2A870A93D35A8BD5D9 /* UIView+Capture.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE643A9C5267A1AF3D14BDC6AA06007 /* UIView+Capture.m */; };
-		FD1589F42F9C2D54474FB07C8BA9480D /* WBViewCapture-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F8045DE0534A2198946E93D10BEAB9 /* WBViewCapture-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC0318791E60B7BC16213D6C4D1172FC /* WBViewCapture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA09DEDA29E830902385BE5A2B1FBCB /* WBViewCapture-dummy.m */; };
+		E4D5F4C1DD74EC26DE17133AAD49223E /* UIScrollView+Capture.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DE442C85A7BE5A3F00B21D95D7ED9D /* UIScrollView+Capture.m */; };
+		E6C5EA9025FF1D483EE75AE562A767F7 /* UIView+Capture.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D66EF7ADAD310180371FD0DBE71A88 /* UIView+Capture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,39 +37,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0549D0395F487AC0120D2B6F2F6E87DB /* WBViewCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBViewCapture.h; path = WBViewCapture/Classes/WBViewCapture.h; sourceTree = "<group>"; };
 		07D24E056657D9F83EF689BE149B91D4 /* Pods-WBViewCapture_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WBViewCapture_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0DCD18F220B89914EE7DFCF974764984 /* UIView+Capture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Capture.h"; path = "WBViewCapture/Classes/UIView+Capture.h"; sourceTree = "<group>"; };
+		12641147E9EC3A3B11EC5FD334F67701 /* UIWebView+Capture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+Capture.h"; path = "WBViewCapture/Classes/UIWebView+Capture.h"; sourceTree = "<group>"; };
 		21F9A91561921468E62EBEB134E22A42 /* Pods-WBViewCapture_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WBViewCapture_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		23DC6ECB0DFCC9E79CC9C37680668C0D /* WBViewCapture.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WBViewCapture.modulemap; sourceTree = "<group>"; };
 		299B7D75EE66349077C7DD8866DC0691 /* Pods_WBViewCapture_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WBViewCapture_Example.framework; path = "Pods-WBViewCapture_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDA670106EE032B5FF68CE0D9792DC7 /* Pods-WBViewCapture_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WBViewCapture_Example-dummy.m"; sourceTree = "<group>"; };
+		404A029847666F7B15CE82BD8AD37D82 /* UIView+Capture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Capture.h"; path = "WBViewCapture/Classes/UIView+Capture.h"; sourceTree = "<group>"; };
 		50E7034EA912B0CBD3490BE5167617B1 /* WBViewCapture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WBViewCapture.framework; path = WBViewCapture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		621C5D30C0CEC5C3EAC6B1818C6DF8B9 /* WBViewCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBViewCapture.h; path = WBViewCapture/Classes/WBViewCapture.h; sourceTree = "<group>"; };
+		5EE23462E4FC62379A2D10853F3FED95 /* UIWebView+Capture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+Capture.m"; path = "WBViewCapture/Classes/UIWebView+Capture.m"; sourceTree = "<group>"; };
+		6BA09DEDA29E830902385BE5A2B1FBCB /* WBViewCapture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WBViewCapture-dummy.m"; sourceTree = "<group>"; };
+		6E2EFD4577FFE875C6BA74B8B660CD42 /* WBViewCapture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBViewCapture-prefix.pch"; sourceTree = "<group>"; };
 		71CB27BBEEAF4D081CCE9B32D1C8793A /* Pods-WBViewCapture_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WBViewCapture_Tests-resources.sh"; sourceTree = "<group>"; };
 		758D4278C0320A40C005550AACF668DA /* Pods-WBViewCapture_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WBViewCapture_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7CE643A9C5267A1AF3D14BDC6AA06007 /* UIView+Capture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Capture.m"; path = "WBViewCapture/Classes/UIView+Capture.m"; sourceTree = "<group>"; };
+		7BE638729C4305AC4869CA295A26C2E8 /* UIScrollView+Capture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+Capture.h"; path = "WBViewCapture/Classes/UIScrollView+Capture.h"; sourceTree = "<group>"; };
 		8AA51024046A5251351ED7455660AC95 /* Pods-WBViewCapture_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WBViewCapture_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8BF9699A101984FAEABCA918B591819A /* Pods-WBViewCapture_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WBViewCapture_Example-resources.sh"; sourceTree = "<group>"; };
 		90240EEB086CAF3BAFE1E88A83B9D5D6 /* Pods-WBViewCapture_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBViewCapture_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		91C209E26970FDD6B657DA3F4B77D5EE /* Pods-WBViewCapture_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WBViewCapture_Example-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		983802FDEA356CB1E1A3919C64EA4159 /* Pods-WBViewCapture_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WBViewCapture_Example.modulemap"; sourceTree = "<group>"; };
-		A02CC9FBB386083413889441E4286428 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7F8045DE0534A2198946E93D10BEAB9 /* WBViewCapture-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBViewCapture-umbrella.h"; sourceTree = "<group>"; };
+		9BE90FCF363E481307AAFBA8E20BDEE5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8FD959AE93ACCB48F7A6AAF94B02A4F /* Pods-WBViewCapture_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WBViewCapture_Tests.modulemap"; sourceTree = "<group>"; };
 		AFE1219BC4048451F8F91A50B14F7581 /* Pods-WBViewCapture_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBViewCapture_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B1018DB3BD635C04AFA925D1542D404A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2DBE772261DC2B47ADCE33B51C542BC /* WBViewCapture.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WBViewCapture.xcconfig; sourceTree = "<group>"; };
 		B5B45E308B3D109E49C3F46AEE14DFCD /* Pods-WBViewCapture_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBViewCapture_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B90AE854FF4D328FAF5929E3A7A057B5 /* WBViewCapture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBViewCapture-prefix.pch"; sourceTree = "<group>"; };
+		C089235FA2FB564E187A1980B5358E31 /* WBViewCapture.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WBViewCapture.xcconfig; sourceTree = "<group>"; };
+		C5D66EF7ADAD310180371FD0DBE71A88 /* UIView+Capture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Capture.m"; path = "WBViewCapture/Classes/UIView+Capture.m"; sourceTree = "<group>"; };
 		CEE82570C3B9D73276E5635480DEC21F /* Pods-WBViewCapture_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBViewCapture_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D369DBD674D11CD46CC38DE084F77623 /* WBViewCapture.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WBViewCapture.modulemap; sourceTree = "<group>"; };
 		D67E7126221D6473BEB67C68E6781B4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA98E628F538B6F64EB3BC4B1EEC3E98 /* Pods-WBViewCapture_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WBViewCapture_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E52B16E5AF327BDC51923FEA0AF7695B /* Pods-WBViewCapture_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WBViewCapture_Tests-dummy.m"; sourceTree = "<group>"; };
 		EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		F525EA555EB41D5D27A45E402B0564FF /* Pods_WBViewCapture_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WBViewCapture_Tests.framework; path = "Pods-WBViewCapture_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB1B7750AA4A00DA67569141B615168E /* WBViewCapture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WBViewCapture-dummy.m"; sourceTree = "<group>"; };
+		F5DE442C85A7BE5A3F00B21D95D7ED9D /* UIScrollView+Capture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+Capture.m"; path = "WBViewCapture/Classes/UIScrollView+Capture.m"; sourceTree = "<group>"; };
+		FC7F7FA2FC4548191D92A651EBB7B0AA /* WBViewCapture-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBViewCapture-umbrella.h"; sourceTree = "<group>"; };
 		FD989C88F4840BD1A8824C70DCAD5BEB /* Pods-WBViewCapture_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBViewCapture_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FF2AE0CD021BA494B9F8DAA57D2229AC /* Pods-WBViewCapture_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBViewCapture_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,14 +144,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		34044AE28B7E6913D6823035768EA0F0 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AB70BA909394C3318ACE7482702B7AB3 /* WBViewCapture */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,41 +161,53 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7A7BA6D6170687F87C65EC4C135E431D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A02CC9FBB386083413889441E4286428 /* Info.plist */,
-				D369DBD674D11CD46CC38DE084F77623 /* WBViewCapture.modulemap */,
-				B2DBE772261DC2B47ADCE33B51C542BC /* WBViewCapture.xcconfig */,
-				FB1B7750AA4A00DA67569141B615168E /* WBViewCapture-dummy.m */,
-				B90AE854FF4D328FAF5929E3A7A057B5 /* WBViewCapture-prefix.pch */,
-				A7F8045DE0534A2198946E93D10BEAB9 /* WBViewCapture-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WBViewCapture";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				34044AE28B7E6913D6823035768EA0F0 /* Development Pods */,
+				F7FEB8786F131656BB39F7C931157EE1 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				1B464D2860FE2B921CA5450713F7E4A5 /* Products */,
 				20E831AB899C587BC6BE836BCB893527 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		AB70BA909394C3318ACE7482702B7AB3 /* WBViewCapture */ = {
+		828422B6425F502A50D789060CE5861B /* WBViewCapture */ = {
 			isa = PBXGroup;
 			children = (
-				0DCD18F220B89914EE7DFCF974764984 /* UIView+Capture.h */,
-				7CE643A9C5267A1AF3D14BDC6AA06007 /* UIView+Capture.m */,
-				621C5D30C0CEC5C3EAC6B1818C6DF8B9 /* WBViewCapture.h */,
-				7A7BA6D6170687F87C65EC4C135E431D /* Support Files */,
+				7BE638729C4305AC4869CA295A26C2E8 /* UIScrollView+Capture.h */,
+				F5DE442C85A7BE5A3F00B21D95D7ED9D /* UIScrollView+Capture.m */,
+				404A029847666F7B15CE82BD8AD37D82 /* UIView+Capture.h */,
+				C5D66EF7ADAD310180371FD0DBE71A88 /* UIView+Capture.m */,
+				12641147E9EC3A3B11EC5FD334F67701 /* UIWebView+Capture.h */,
+				5EE23462E4FC62379A2D10853F3FED95 /* UIWebView+Capture.m */,
+				0549D0395F487AC0120D2B6F2F6E87DB /* WBViewCapture.h */,
+				EC4A873F3963346E00773C96B0840AD3 /* Support Files */,
 			);
 			name = WBViewCapture;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		EC4A873F3963346E00773C96B0840AD3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BE90FCF363E481307AAFBA8E20BDEE5 /* Info.plist */,
+				23DC6ECB0DFCC9E79CC9C37680668C0D /* WBViewCapture.modulemap */,
+				C089235FA2FB564E187A1980B5358E31 /* WBViewCapture.xcconfig */,
+				6BA09DEDA29E830902385BE5A2B1FBCB /* WBViewCapture-dummy.m */,
+				6E2EFD4577FFE875C6BA74B8B660CD42 /* WBViewCapture-prefix.pch */,
+				FC7F7FA2FC4548191D92A651EBB7B0AA /* WBViewCapture-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WBViewCapture";
+			sourceTree = "<group>";
+		};
+		F7FEB8786F131656BB39F7C931157EE1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				828422B6425F502A50D789060CE5861B /* WBViewCapture */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		F996BB5309131C0386A683320AE6887D /* Pods-WBViewCapture_Example */ = {
@@ -227,21 +239,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D661059CE30D24ED83123382ACBC542 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				82621BD3EE7C8DB0F98EBDBA550596C4 /* UIView+Capture.h in Headers */,
-				FD1589F42F9C2D54474FB07C8BA9480D /* WBViewCapture-umbrella.h in Headers */,
-				83A2F9EDC8AC71F3227198735562241F /* WBViewCapture.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		418A1ED5E392E7ED81DE30481CCB5CE9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				64A9C905A71A80275086F24D7897165B /* Pods-WBViewCapture_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83096936A4A5A9CF486E1C04CB47EE5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF8D5C70DCB869EE584EB2191A4B48D /* UIScrollView+Capture.h in Headers */,
+				318AFF7F142509AA9782BD073BF6B850 /* UIView+Capture.h in Headers */,
+				1DA669A8D1BB1D49D171AFD2182F92F6 /* UIWebView+Capture.h in Headers */,
+				5ECE317A52DC4966ADBB8C847F2B8227 /* WBViewCapture-umbrella.h in Headers */,
+				9EC054C5451A95EE42EC2674DA0857BB /* WBViewCapture.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,9 +266,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFF0C6589C71442A84353E81B314F89E /* Build configuration list for PBXNativeTarget "WBViewCapture" */;
 			buildPhases = (
-				3B58D77F563687187AD6D7F843780DB9 /* Sources */,
+				6427B05BA8A640EE8483D9AD44790C76 /* Sources */,
 				76560C9A23D168D1648362665FB9C2A0 /* Frameworks */,
-				2D661059CE30D24ED83123382ACBC542 /* Headers */,
+				83096936A4A5A9CF486E1C04CB47EE5A /* Headers */,
 			);
 			buildRules = (
 			);
@@ -329,20 +343,22 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3B58D77F563687187AD6D7F843780DB9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CDEE9A1D38A5CA2A870A93D35A8BD5D9 /* UIView+Capture.m in Sources */,
-				3E30CFC89BC9036735C9F9175FF123BB /* WBViewCapture-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		42FD1ABB35ED1C58788B7FEE3EDEF018 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				98D37442A2A86F53A3CEC22933EABBBC /* Pods-WBViewCapture_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6427B05BA8A640EE8483D9AD44790C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D5F4C1DD74EC26DE17133AAD49223E /* UIScrollView+Capture.m in Sources */,
+				E6C5EA9025FF1D483EE75AE562A767F7 /* UIView+Capture.m in Sources */,
+				29F5CAE40F1E4BB774B8CBDD4859C742 /* UIWebView+Capture.m in Sources */,
+				BC0318791E60B7BC16213D6C4D1172FC /* WBViewCapture-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,7 +514,7 @@
 		};
 		59EE00B0A6E4359762F88DFC7CEFA3BA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2DBE772261DC2B47ADCE33B51C542BC /* WBViewCapture.xcconfig */;
+			baseConfigurationReference = C089235FA2FB564E187A1980B5358E31 /* WBViewCapture.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -527,7 +543,7 @@
 		};
 		5B3EDE2E43595A787D65DB35B1326AE6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2DBE772261DC2B47ADCE33B51C542BC /* WBViewCapture.xcconfig */;
+			baseConfigurationReference = C089235FA2FB564E187A1980B5358E31 /* WBViewCapture.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

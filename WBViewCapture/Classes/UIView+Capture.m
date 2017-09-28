@@ -10,7 +10,11 @@
 
 @implementation UIView (Capture)
 
-#pragma mark - Private Method
+#pragma mark - Public Method
+
+- (void)setFrameSwizzled:(CGRect)frame
+{
+}
 
 - (BOOL)isContainWKWebView
 {
@@ -25,8 +29,6 @@
     
     return NO;
 }
-
-#pragma mark - Public Method
 
 - (void)capture:(void (^)(UIImage * _Nullable))completion
 {
