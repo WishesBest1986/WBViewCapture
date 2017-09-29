@@ -22,6 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		6F4860DD7932FE930B956CFB /* Pods_WBViewCapture_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45BEFE7A7BA39EA4D5740AD /* Pods_WBViewCapture_Example.framework */; };
+		F4100D811F7DDED50010EA99 /* WBWKWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4100D801F7DDED50010EA99 /* WBWKWebViewViewController.m */; };
 		F43371F11F74F0060058B4F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43371F01F74F0060058B4F6 /* Main.storyboard */; };
 		F43371F31F74F0B80058B4F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43371F21F74F0B80058B4F6 /* LaunchScreen.storyboard */; };
 		F462B0BF1F7C90CF00CEEF42 /* WBImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F462B0BE1F7C90CF00CEEF42 /* WBImageViewController.m */; };
@@ -69,6 +70,8 @@
 		A45BEFE7A7BA39EA4D5740AD /* Pods_WBViewCapture_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBViewCapture_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA87980D0DD0630F9745AABE /* Pods-WBViewCapture_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBViewCapture_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WBViewCapture_Example/Pods-WBViewCapture_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DA4D8F494E18803761936B78 /* Pods_WBViewCapture_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBViewCapture_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4100D7F1F7DDED50010EA99 /* WBWKWebViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBWKWebViewViewController.h; sourceTree = "<group>"; };
+		F4100D801F7DDED50010EA99 /* WBWKWebViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBWKWebViewViewController.m; sourceTree = "<group>"; };
 		F43371F01F74F0060058B4F6 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F43371F21F74F0B80058B4F6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F462B0BD1F7C90CF00CEEF42 /* WBImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBImageViewController.h; sourceTree = "<group>"; };
@@ -171,6 +174,8 @@
 				F462B0D01F7CCE5800CEEF42 /* WBTableViewController.m */,
 				F462B0D21F7CCE6300CEEF42 /* WBWebViewController.h */,
 				F462B0D31F7CCE6300CEEF42 /* WBWebViewController.m */,
+				F4100D7F1F7DDED50010EA99 /* WBWKWebViewViewController.h */,
+				F4100D801F7DDED50010EA99 /* WBWKWebViewViewController.m */,
 			);
 			name = "Example for WBViewCapture";
 			path = WBViewCapture;
@@ -424,6 +429,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F462B0C21F7C956C00CEEF42 /* WBViewViewController.m in Sources */,
+				F4100D811F7DDED50010EA99 /* WBWKWebViewViewController.m in Sources */,
 				F462B0D41F7CCE6300CEEF42 /* WBWebViewController.m in Sources */,
 				6003F59E195388D20070C39A /* WBAppDelegate.m in Sources */,
 				F462B0D11F7CCE5800CEEF42 /* WBTableViewController.m in Sources */,

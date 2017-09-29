@@ -26,6 +26,12 @@
     self.title = @"Display Caputure Image";
     
     self.imageView.contentMode = UIViewContentModeTopLeft;
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
     self.imageView.image = self.image;
     self.imageViewWidthConstraint.constant = self.image.size.width;
     self.imageViewHeightConstraint.constant = self.image.size.height;

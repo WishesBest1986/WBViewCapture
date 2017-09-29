@@ -14,6 +14,7 @@
 #import "UIView+Capture.h"
 #import "UIWebView+Capture.h"
 #import "WBViewCapture.h"
+#import "WKWebView+Capture.h"
 
 FOUNDATION_EXPORT double WBViewCaptureVersionNumber;
 FOUNDATION_EXPORT const unsigned char WBViewCaptureVersionString[];

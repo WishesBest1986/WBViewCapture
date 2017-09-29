@@ -11,5 +11,6 @@
 #import "UIView+Capture.h"
 #import "UIScrollView+Capture.h"
 #import "UIWebView+Capture.h"
+#import "WKWebView+Capture.h"
 
 #endif /* WBViewCapture_h */
